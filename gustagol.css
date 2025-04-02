@@ -39,17 +39,6 @@ html{
     margin: 0 auto;
     padding: 20px;
 }
-/* Hero Section */
-.hero-section {
-    text-align: center;
-    background-image: url(fotos/banner.png);
-    background-size: cover;
-    background-position: center;
-    padding: 150px 450px;
-    color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
   
   .hero-section h1 {
     font-size: 2.5rem;
@@ -109,4 +98,7 @@ html{
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
+  }
+  .video{
+      object-fit: cover;
   }
